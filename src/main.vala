@@ -25,8 +25,8 @@ public class Hello : Granite.Application{
    	 */
    	 
    	 app_years = "2013";
-   	 app_icon = "hello";  //the icon for your app. you normally ship it with your project in the data directory and copy it to the icon directory. You don't include file endings here (you can also use one of the default icons as I'm doing here)
-   	 app_launcher = "hello.desktop";  //the .desktop file for your app, also in data directory
+   	 app_icon = "Vala2XMI";  //the icon for your app. you normally ship it with your project in the data directory and copy it to the icon directory. You don't include file endings here (you can also use one of the default icons as I'm doing here)
+   	 app_launcher = "Vala2XMI.desktop";  //the .desktop file for your app, also in data directory
    	 application_id = "org.elementary.hello";  //an unique id which will identify your application
    	 
    	 //those urls will be shown in the automatically generated about dialog
@@ -39,7 +39,7 @@ public class Hello : Granite.Application{
    	 about_authors = {""};
    	 about_documenters = {"Mario Marcec <mario.marce42@googlmail.com>"};
    	 about_artists = {"Mario Marcec"};  //if you got an icon or a nice mockup from someone you can list him here
-   	 about_comments = "A simple Hello to you";  //a short comment on the app
+   	 about_comments = "Umbrello XMI File ";  //a short comment on the app
    	 about_translators = "";
    	 about_license_type = License.GPL_3_0;  //this should be one of http://unstable.valadoc.org/#!api=gtk+-3.0/Gtk.License; For elementary GPL3 is the default one, it’s a good idea to use it
     }

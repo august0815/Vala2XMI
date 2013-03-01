@@ -1,10 +1,10 @@
 <project version="0.1">
-	<name>xmi_gen</name>
+	<name>Vala2XMI</name>
 	<buildsystem>cmake</buildsystem>
 	<version>
 		<major>0</major>
 		<minor>0</minor>
-		<patch>0</patch>
+		<patch>1</patch>
 	</version>
 	<packages>
 		<package>gee-1.0</package>
