@@ -2,6 +2,7 @@
 set(project_name "Vala2XMI")
 set(Vala2XMI_VERSION "0.0.1")
 set(required_pkgs
+"Sxml-0.1"
 "gee-1.0"
 "gio-2.0"
 "glib-2.0"
@@ -11,6 +12,20 @@ set(required_pkgs
 )
 set(srcfiles
 "src/Attribute.vala"
+"src/CLASS.vala"
+"src/Datatype.vala"
+"src/File.vala"
+"src/FileName.vala"
+"src/Finish.vala"
+"src/ID_gen.vala"
+"src/MasterState.vala"
+"src/Method.vala"
+"src/Namespace.vala"
+"src/Parameter.vala"
+"src/Window.vala"
+"src/build_dir.vala"
+"src/load_file.vala"
+"src/load_file_private.vala"
 "src/main.vala"
 )
 set(vapifiles

@@ -41,15 +41,12 @@ public class  Loader:  Object {
 						case 2:
 							{
 							deep ++;
-							
-								print ("Deep :"+deep.to_string()+" "+namespc+"\n");
 							string classname =setclass(line,namespc);
 							var loop=true;
 							while (loop){
 							line = in_stream.read_line (null, null);
 							if  ("}"in line) {
 								if (deep<1){namespc="";}
-								print ("Deep :"+deep.to_string()+" "+namespc+"\n");
 								loop=false;deep --;
 								break;}
 							setmethod(classname,line);
@@ -65,11 +62,6 @@ public class  Loader:  Object {
 							var id=getID();
 							master.addNamespace(namespc,id);
 							
-								print ("Deep :"+deep.to_string()+" "+namespc+"\n");
-							//var loop=true;
-							//while (loop){
-							//line = in_stream.read_line (null, null);
-							//if ( ("}"in line) &&  (deep=1)){loop=false;deep --;namespace="";break;}
 							
 							}
 						break;	
@@ -79,21 +71,18 @@ public class  Loader:  Object {
 								if (deep<1){namespc="";}
 								if (deep<0) {deep=0;}
 							
-								print ("Deep :"+deep.to_string()+" "+namespc+"\n");
-							}
+								}
 						break;
 						case 5:
 							{
 							deep ++;
 							
-							print ("Deep :"+deep.to_string()+" "+namespc+"\n");
 							string classname =setclass(line,namespc);
 							var loop=true;
 							while (loop){
 							line = in_stream.read_line (null, null);
 							if  ("}"in line) {
 								if (deep<1){namespc="";}
-								print ("Deep :"+deep.to_string()+" "+namespc+"\n");
 								loop=false;deep --;
 								break;}
 							setmethod(classname,line);
@@ -156,7 +145,6 @@ public class  Loader:  Object {
 				break;
 				}	
 				
-			print("RETURN "+ret+"\n");
 			return ret;
 		}
 	/**

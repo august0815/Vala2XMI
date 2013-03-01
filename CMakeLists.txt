@@ -16,7 +16,7 @@
 # with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-include("${CMAKE_SOURCE_DIR}/cmake/Vala2XMI.cmake")
+include("${CMAKE_SOURCE_DIR}/cmake/project.cmake")
 include("${CMAKE_SOURCE_DIR}/cmake/Common.cmake")
 
 cmake_minimum_required(VERSION "2.8.4")

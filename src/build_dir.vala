@@ -103,7 +103,6 @@ string pmt6="""/>""";
 	if (n.name!=""){
 	dos.put_string("<UML:Package "+package_begin2+n.name+package_begin3+package_begin5+n.id_string+"""""""+">\n");
     
-		print (" NAME "+n.name);
 	 ArrayList<string> list=n.getList();
 	 foreach(string s in list){
 	 string  testclass=s;
